@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('first') {
             steps {
-                echo 'Building..'
+                echo 'web1..'
             }
         }
-        stage('Test') {
+        stage('second') {
             steps {
-                echo 'Testing..'
+                echo 'Tweb2.'
             }
         }
-        stage('Deploy') {
+        stage('3') {
             steps {
-                echo 'Deploying....'
+                echo 'web3g....'
             }
         }
     }
